@@ -1,0 +1,79 @@
+:root{
+     --theme-color: #ffffff;
+     --primary-color: #123f88;
+     --segundary-color: #f7c331;
+     --text-color-inverse:#ffffff;
+     --text-color:#000000;
+     --navbar-shallow-color: #e5e5e5;
+     --menu-mobile-background-color:#3a4460 ;
+}
+
+
+html{
+     
+     scroll-behavior: smooth;
+     
+     
+     
+}
+
+
+section[id]{
+     
+     scroll-margin-top:70px;
+     
+     
+}
+
+body {
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     background-color: var(--theme-color);
+     color: var(--text-color);
+     padding-top: 70px;
+}
+
+a{
+     text-decoration: none;
+     color: var(--text-color);
+     
+     
+}
+
+.horizontal-padding{
+     
+     padding-left: 25px;
+     padding-right: 25px;
+     
+     
+}
+
+
+.vertical-padding{
+     padding-top: 25px;
+     padding-bottom: 25px;
+     
+     
+}
+
+@media(mi-width: 950px){
+     
+     
+     
+.horizontal-padding{
+     
+     padding-left: 70px;
+     padding-right: 70px;
+     
+     
+}
+
+
+.vertical-padding{
+     padding-top: 70px;
+     padding-bottom: 70px;
+     
+     
+}
+     
+     
+}
