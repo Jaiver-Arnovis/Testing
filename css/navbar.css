@@ -41,6 +41,20 @@
      
      
 }
+.infoName{
+     margin: 0;
+     padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
 
 /* parte del menu */
 
@@ -49,7 +63,7 @@
 .menu{
      display: flex;
      list-style: none;
-     mmargin: 0;
+     margin: 0;
      padding: 0;
      
      
