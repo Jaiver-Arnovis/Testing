@@ -11,11 +11,16 @@
     width: 100%;
 
 }
+logoJ{
+    position: absolute;
+
+}
+
+
+
 .imagen-j{
 
-    height: 31px;
-    width: 48px; 
-
+   
     left: 36.67%;
     right: 37.43%;
     top: 0%;
