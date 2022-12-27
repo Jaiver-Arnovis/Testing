@@ -31,9 +31,5 @@ logoJ{
 
 
 .vector_text{
-    align-items: center;
-
-
-
-
+    vertical-align: middle;
 }
