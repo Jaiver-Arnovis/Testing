@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #3a4460 }
+  background-color: var(--menu-mobile-background-color);
+ }
 
 .conten {
   position: fixed;
@@ -39,7 +40,7 @@ body {
     margin: 2em auto;
     font-family: "Gill Sans", sans-serif; }
   .conten__button {
-    background-color: #0077d8f4;
+    background-color: var(--menu-mobile-background-color) ;
     color: #ffffff;
     font-weight: 600;
     font-family: "Gill Sans", sans-serif;
