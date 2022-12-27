@@ -1,7 +1,7 @@
 
 .contact{
      
-     background-color: var(--primary-color);
+     background-color: var(--menu-mobile-background-color);
      color: var(--text-color-inverse);
      font-size: 18px;
      border-radius: 14px;
