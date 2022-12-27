@@ -40,7 +40,7 @@ body {
     margin: 2em auto;
     font-family: "Gill Sans", sans-serif; }
   .conten__button {
-    background-color: var(--menu-mobile-background-color) ;
+    background-color: var(--primary-color) ;
     color: #ffffff;
     font-weight: 600;
     font-family: "Gill Sans", sans-serif;
