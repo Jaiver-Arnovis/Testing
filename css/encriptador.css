@@ -1,9 +1,6 @@
 .alura{
     background-color: var(--alura-proyec-background-color);
-    color: var(--alura-proyec-text-color);
-    
-    
-    
+
 }
 .en-desallor{
 
@@ -15,7 +12,12 @@
 
 
 }
+.contenedor{
 
+    background-color: var(--alura-proyec-background-color);
+    position: relative;
+
+}
 .imagen-j{
 
     height: 31px;
