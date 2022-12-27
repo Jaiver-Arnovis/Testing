@@ -16,6 +16,8 @@
 
     background-color: var(--alura-proyec-background-color);
     position: relative;
+    height: 800px;
+    width: 100%;
 
 }
 .imagen-j{
