@@ -1,6 +1,6 @@
 .alura{
-    background-color: #3a4460;
-    cocolor: var(--text-color-inverse);
+    background-color: var(--alura-proyec-background-color);
+    cocolor: var(--alura-proyec-text-color);
     
     
     
