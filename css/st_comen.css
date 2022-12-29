@@ -141,7 +141,7 @@ button{
 
 .close{
     font-size: 20px;
-    position: absolute;
+    position: relative;
     right: 200px;
     width: 20px;
     z-index: 20;
