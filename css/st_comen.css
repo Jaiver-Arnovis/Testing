@@ -142,7 +142,7 @@ button{
 .close{
     font-size: 20px;
     position: absolute;
-    right: 150px;
+    right: 200px;
     width: 20px;
     z-index: 20;
     transition-duration: 200ms;
