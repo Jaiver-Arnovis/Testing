@@ -141,8 +141,8 @@ button{
 
 .close{
     font-size: 20px;
-    position: 0;
-    right: 200px;
+    position: 300 xp;
+    right: 0px;
     width: 20px;
     z-index: 20;
     transition-duration: 200ms;
