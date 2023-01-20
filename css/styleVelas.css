@@ -52,8 +52,10 @@ body{
 
 }
 .logotext p{
+    margin-top: 2px;
     font-size: 25px;
     color: #373737;
+    width: auto;
     display: inline-block;
     order: 2;
     font-family: 'Dancing Script', cursive;
