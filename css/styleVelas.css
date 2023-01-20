@@ -46,7 +46,7 @@ body{
     order: 1;
     filter: drop-shadow(0px 1px 10px #fbff00c7);
 }
-.logotext{
+.logotext p{
     font-size: 25px;
     color: #373737;
     display: inline-block;
