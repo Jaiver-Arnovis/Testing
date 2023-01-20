@@ -61,7 +61,7 @@ body{
     display: block;
     padding: 0 auto;
     margin: auto 0;
-    margin-left: 12vh;
+    margin-left: 20vh;
 
     
     }
@@ -189,16 +189,6 @@ body{
 /* PRODUCTOS */
 
 
-
-
-.contenedor-productos{
-    width: 940px;
-    margin: 0 auto;
-    
-
-}
-
-
 .linea-divicionOr{
     width: 100%;
     height: 40px;
@@ -220,23 +210,38 @@ body{
     background: #373737;
     border-radius: 7px;
     margin: auto 0;
+    margin-right: 10PX;
+    padding: 8px;
 }
+
+
+/*.contenedor-productos{
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    
+
+}*/
+
+
+
 
 
 
 
 
 .productos{
-    width: 940px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 50px auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .productos li{
-    display: inline-block;
+    display: block;
     text-align: center;
-    width: 30%;
-    
-    vertical-align: top;
-    
+    width: 300px;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
