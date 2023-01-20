@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;800 family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Inter:wght@100;400;800&display=swap');
+
+
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(-35deg, #75c6d1 50%, #c582d6);
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Serif', Serif; 
+}
+
+
+
+
+.barra{
+    
+    background-color: #d7d7e686;
+    height: auto;
+    width: auto;
+    padding: 0 auto;
+    margin: auto 50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 10px #f5e6d3;
+    
+    
+    
+    
+    
+}
+.logoC{
+    margin: auto 0;
+    width: 100PX;
+    display: flex;
+
+
+}
+
+.logoImg{
+    width: auto ;
+    max-width: 70px;
+    height: 100%;
+    max-height: 100px;
+    margin: auto 0;
+    order: 1;
+    filter: drop-shadow(0px 1px 10px #fbff00c7);
+}
+.logotext{
+    font-size: 25px;
+    color: #373737;
+    display: inline-block;
+    order: 2;
+    font-family: 'Dancing Script', cursive;
+    
+    text-shadow: 2px 2px 10px rgba(251, 255, 3, 0.671);
+
+}
+
+.menu{
+    display: block;
+    padding: 0 auto;
+    margin: auto 0;
+    margin-left: 12vh;
+
+    
+    }
+
+.menu .menuItem{
+    display: inline;
+    margin-left: 1VH;
+}
+ 
+.menu .menuItem .menuA{
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Serif', Serif; 
+    color: #373737;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #DCD0C0;
+    color: #373737;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 0;
+
+}
+.linea-divicionT{
+    width: 80%;
+    height: 10px;
+    background-image: linear-gradient(35deg, #91f2ff83 50%, #c582d6);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+.subtitle{
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.descripcionC{
+    color: #fff;
+    margin: 7px 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+
+}
+
+.linea-divicion{
+    width: 80%;
+    height: 2px;
+    background-color: #015249;
+}
+
+
+
+
+
+
+
+
+/* ESTULOS CAROUSEL*/
+
+
+
+
+
+.carousel{
+    min-height: 500px;
+}
+ 
+.carousel .carousel-item {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+
+
+}
+
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+}
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #373737;
+
+
+}
+
+
+
+
+
+
+/* PRODUCTOS */
+
+
+
+
+.contenedor-productos{
+    width: 940px;
+    margin: 0 auto;
+    
+
+}
+
+
+.linea-divicionOr{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(35deg, #91f2ff83 50%, #c582d6);
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.textOr{
+    display: block;
+    margin: auto 0;
+    margin-right: 20px;
+}
+
+.btnOr{
+    display: block;
+    color: #f4f4f4;
+    background: #373737;
+    border-radius: 7px;
+    margin: auto 0;
+}
+
+
+
+
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    
+    vertical-align: top;
+    
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* border */
+    border-color: #373737;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: #DCD0C0;
+    text-shadow: none;
+}
+
+.productos li:hover{
+    text-shadow: none;
+    border-color: #f4f4f4;
+    font-size: 40px;
+
+    
+    
+
+
+}
+
+
+.productos li:active{
+    border-color: #c0b283;
+
+}
+
+
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+ 
+.productos li:hover h2{
+
+    font-size: 33px;
+
+
+}
+.productos li:hover img{
+    scale: 30px;
+    
+
+}
+
+ .pro-descripcion{
+    margin-top: 10px;
+    font-family: 'PT Serif', Serif; 
+    font-size: 18px;  
+ }
+
+ .pro-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+
+ }
+
+ .img-producto{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+
+ }
+
+
+
+ footer{
+    background-color: #373737c7;
+    
+    height: auto;
+    width: auto;
+    padding: 0 auto;
+    margin: auto 50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);  
+}
+
+footer p{
+    color: #f4f4f4;
+    margin: auto 0;
+    margin-left: 5vh;
+    order: 2;
+}
