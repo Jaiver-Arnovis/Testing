@@ -30,7 +30,9 @@ body{
     
 }
 .logoC{
+
     margin: auto 0;
+    margin-left: 10px;
     width: 220PX;
     display: flex;
 
