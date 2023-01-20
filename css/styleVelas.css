@@ -31,7 +31,7 @@ body{
 }
 .logoC{
     margin: auto 0;
-    width: 180PX;
+    width: 190PX;
     display: flex;
 
 
@@ -48,6 +48,7 @@ body{
 }
 .logotext{
     margin: auto 0;
+    margin-left: 15px;
     width: 67%;
     font-size: 33px;
     color: #373737;
