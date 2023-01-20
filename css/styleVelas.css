@@ -51,17 +51,14 @@ body{
     
 
 }
-.logotext p{
+.logotext{
     margin-top: 0;
     font-size: 25px;
     color: #373737;
-    width: 50px;
     display: inline-block;
     order: 2;
     font-family: 'Dancing Script', cursive;
-    
     text-shadow: 2px 2px 10px rgba(251, 255, 3, 0.671);
-    word-wrap: wrap;
 
 }
 
