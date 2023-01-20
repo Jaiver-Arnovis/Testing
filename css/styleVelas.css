@@ -38,7 +38,7 @@ body{
 }
 
 .logoImg{
-    width: auto ;
+    width: 33% ;
     max-width: 70px;
     height: 100%;
     max-height: 100px;
@@ -47,12 +47,8 @@ body{
     filter: drop-shadow(0px 1px 10px #fbff00c7);
 }
 .logotext{
-    order: 2;
-    
-
-}
-.logotext{
     margin-top: 0;
+    width: 67%;
     font-size: 25px;
     color: #373737;
     display: inline-block;
