@@ -10,9 +10,6 @@ body{
     font-family: 'PT Serif', Serif; 
 }
 
-
-
-
 .barra{
     
     background-color: #d7d7e686;
@@ -29,6 +26,7 @@ body{
     
     
 }
+
 .logoC{
 
     margin: auto 0;
@@ -48,6 +46,7 @@ body{
     order: 1;
     filter: drop-shadow(0px 1px 10px #fbff00c7);
 }
+
 .logotext{
     margin: auto 0;
     margin-left: 15px;
@@ -107,9 +106,6 @@ body{
     margin-bottom: 50px;
 }
 
-
-
-
 .subtitle{
     margin: 0;
     color: #000;
@@ -166,7 +162,6 @@ body{
 
 }
 
-
 .carousel .carousel-item img{
     width: 100%;
     height: 100%;
@@ -177,6 +172,7 @@ body{
     z-index: -1;
     border-radius: 15px;
 }
+
 .carousel .indicators .indicator-item {
     border-radius: 0;
     transform: rotate(45deg);
@@ -231,10 +227,6 @@ body{
 
 
 
-
-
-
-
 .productos{
     max-width: 1000px;
     margin: 50px auto;
@@ -243,6 +235,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .productos li{
     display: block;
     text-align: center;
@@ -271,13 +264,10 @@ body{
 
 }
 
-
 .productos li:active{
     border-color: #c0b283;
 
 }
-
-
 
 .productos h2{
     font-size: 30px;
@@ -291,6 +281,7 @@ body{
 
 
 }
+
 .productos li:hover img{
     scale: 30px;
     
@@ -301,7 +292,7 @@ body{
     margin-top: 10px;
     font-family: 'PT Serif', Serif; 
     font-size: 18px;  
- }
+}
 
  .pro-precio{
     font-size: 20px;
@@ -309,16 +300,14 @@ body{
     margin-top: 10px;
 
 
- }
+}
 
  .img-producto{
     width: 100%;
     height: 60%;
     border-radius: 10px;
 
- }
-
-
+}
 
  footer{
     background-color: #373737c7;
@@ -337,4 +326,121 @@ footer p{
     margin: auto 0;
     margin-left: 5vh;
     order: 2;
+}
+
+
+@media(max-width: 682px){
+
+    
+    .barra{
+        
+        background-color: #d7d7e686;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-shadow: 2px 2px 10px #f5e6d3;
+
+        
+        
+        
+        
+        
+    }
+    
+    .logoC{
+    
+        margin: auto 0;
+        margin-left: 10px;
+        width: 100%;
+        height: 50%;
+        display: flex;
+    
+    
+    }
+    
+    .logoImg{
+        width: 80% ;
+        max-width: 70px;
+        height: 100%;
+        max-height: 100px;
+        margin: auto 0;
+        order: 1;
+        filter: drop-shadow(0px 1px 10px #fbff00c7);
+    }
+    
+    .logotext{
+        margin: auto 0;
+        margin-left: 5px;
+        width: 100%;
+        font-size: 33px;
+        color: #373737;
+        display: inline-block;
+        order: 2;
+        font-family: 'Dancing Script', cursive;
+        text-shadow: 2px 2px 10px rgba(251, 255, 3, 0.671);
+    
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin: auto 0;
+        margin-left: 2vh;
+
+    
+        
+        }
+    
+    .menu .menuItem{
+        display: inline;
+        margin-left: 1VH;
+    }
+     
+    .menu .menuItem .menuA{
+        display: inline;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'PT Serif', Serif; 
+        color: #373737;
+        font-weight: 800;
+        font-family: 'Dancing Script', cursive;
+        
+    }
+    
+    .titulo{
+        font-size: 50px;
+        font-family: 'Dancing Script', cursive;
+       
+        margin-bottom: 30px;
+        color: #DCD0C0;
+        color: #373737;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    
+    }
+
+    .productos{
+        width: 100%;
+        margin: 50px auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+
+
+
 }
